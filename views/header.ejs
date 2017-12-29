@@ -1,0 +1,11 @@
+<!-- views/partials/header.ejs -->
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.jpg" alt="" /></a>		
+			</div>		
+			<ul>
+				<li <% if (page_name === 'index') { %>class="selected" <% }%>><a href="/"><span>Anasayfa</span></a></li>
+				<li <% if (page_name === 'hakkimizda') { %>class="selected" <% } %>><a href="/hakkimizda"><span>Hakkımızda</span></a></li>
+				<li <% if (page_name === 'hizmetler') { %>class="selected" <% }%> ><a href="/hizmetler"><span>Hizmetler</span></a></li>
+				<li <% if (page_name === 'urunler') { %>class="selected" <% }%> ><a href="/urunler"><span>Ürünler</span></a></li>
+				<li <% if (page_name === 'iletisim') { %>class="selected" <% }%> ><a href="/iletisim"><span>İletişim</span></a></li>			
+			</ul>
