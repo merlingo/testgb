@@ -39,10 +39,12 @@ body {
 #header ul li.selected a,
 #header ul li.selected a span {
 	background: url(images/menu.gif);	
+    background-repeat:no-repeat;
+
 }
 #header ul li a { 
 	background-position: 10px 0; 
-	color: #2a4f5e;
+	color: #c2ecfd;
 	display: block;
 	font-size: 14px;
 	height: 36px;
@@ -52,7 +54,7 @@ body {
 	text-align: center;	
 	text-decoration: none;
 	text-transform: uppercase;
-	text-shadow: 1px 1px 1px #fff;
+	text-shadow: 1px 1px 1px #0c0c0c;
 } 
 #header ul li a span{ 
 	background-position: -70px 0; 
@@ -70,7 +72,7 @@ body {
 } 
 #header ul li.selected a{ 
 	background-position: 10px 36px; 
-	color: #fff;
+	color: #ffffff;
 	text-shadow: none;
 } 
 #header ul li.selected a span{ 
